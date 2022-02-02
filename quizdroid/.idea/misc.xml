@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_marvel.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_marvel_answer_one.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_marvel_answer_three.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/layout/activity_marvel_answer_two.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/layout/activity_marvel_question_one.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_marvel_question_three.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_marvel_question_two.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_math.xml" value="0.41161290322580646" />
+        <entry key="app/src/main/res/layout/activity_math_answer_one.xml" value="0.33101851851851855" />
+        <entry key="app/src/main/res/layout/activity_math_answer_three.xml" value="0.26132246376811596" />
+        <entry key="app/src/main/res/layout/activity_math_answer_two.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_math_question_one.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_math_question_three.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_math_question_two.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_phys_question_three.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_physics.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_physics_answer_one.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/layout/activity_physics_answer_three.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_physics_answer_two.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_physics_question_one.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/layout/activity_physics_question_two.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/layout/activity_seattle.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/layout/activity_seattle_answer_one.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_seattle_answer_three.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_seattle_answer_two.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_seattle_question_one.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_seattle_question_three.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_seattle_question_two.xml" value="0.14895833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

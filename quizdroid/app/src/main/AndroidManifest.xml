@@ -10,6 +10,90 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quizdroid">
         <activity
+            android:name=".MarvelAnswerThree"
+            android:exported="false" />
+        <activity
+            android:name=".MarvelQuestionThree"
+            android:exported="false" />
+        <activity
+            android:name=".MarvelAnswerTwo"
+            android:exported="false" />
+        <activity
+            android:name=".MarvelQuestionTwo"
+            android:exported="false" />
+        <activity
+            android:name=".MarvelAnswerOne"
+            android:exported="false" />
+        <activity
+            android:name=".MarvelQuestionOne"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicsAnswerThree"
+            android:exported="false" />
+        <activity
+            android:name=".PhysQuestionThree"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicsAnswerTwo"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicsQuestionTwo"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicsAnswerOne"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicsQuestionOne"
+            android:exported="false" />
+        <activity
+            android:name=".SeattleAnswerThree"
+            android:exported="false" />
+        <activity
+            android:name=".SeattleQuestionThree"
+            android:exported="false" />
+        <activity
+            android:name=".SeattleAnswerTwo"
+            android:exported="false" />
+        <activity
+            android:name=".SeattleQuestionTwo"
+            android:exported="false" />
+        <activity
+            android:name=".SeattleAnswerOne"
+            android:exported="false" />
+        <activity
+            android:name=".SeattleQuestionOne"
+            android:exported="false" />
+        <activity
+            android:name=".MathAnswerThree"
+            android:exported="false" />
+        <activity
+            android:name=".MathQuestionThree"
+            android:exported="false" />
+        <activity
+            android:name=".MathAnswerTwo"
+            android:exported="false" />
+        <activity
+            android:name=".MathQuestionTwo"
+            android:exported="false" />
+        <activity
+            android:name=".MathAnswerOne"
+            android:exported="false" />
+        <activity
+            android:name=".MathQuestionOne"
+            android:exported="false" />
+        <activity
+            android:name=".MarvelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SeattleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MathActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

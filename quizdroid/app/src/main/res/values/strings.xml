@@ -1,3 +1,78 @@
 <resources>
     <string name="app_name">quizdroid</string>
+
+    <string name="mathQuestionOne">Math - Question 1: 1 + 1</string>
+    <string name="mathQuestionOneCorrect">2</string>
+    <string name="mathQuestionOneIncorrect1">0</string>
+    <string name="mathQuestionOneIncorrect2">-2</string>
+    <string name="mathQuestionOneIncorrect3">1</string>
+
+    <string name="mathQuestionTwo">Math - Question 2: 3 - 0</string>
+    <string name="mathQuestionTwoCorrect">3</string>
+    <string name="mathQuestionTwoIncorrect1">0</string>
+    <string name="mathQuestionTwoIncorrect2">-1</string>
+    <string name="mathQuestionTwoIncorrect3">-3</string>
+
+    <string name="mathQuestionThree">Math - Question 3: 4 * 150 </string>
+    <string name="mathQuestionThreeCorrect">600</string>
+    <string name="mathQuestionThreeIncorrect1">20</string>
+    <string name="mathQuestionThreeIncorrect2">4150</string>
+    <string name="mathQuestionThreeIncorrect3">-3</string>
+
+    <string name="seaQuestionOne">Seattle - Question 1: Area Code</string>
+    <string name="seaQuestionOneCorrect">206</string>
+    <string name="seaQuestionOneIncorrect1">111</string>
+    <string name="seaQuestionOneIncorrect2">999</string>
+    <string name="seaQuestionOneIncorrect3">133</string>
+
+    <string name="seaQuestionTwo">Seattle - Question 2: Closest Link Station to UW Tower</string>
+    <string name="seaQuestionTwoCorrect">U District</string>
+    <string name="seaQuestionTwoIncorrect1">Roosevelt</string>
+    <string name="seaQuestionTwoIncorrect2">Northgate</string>
+    <string name="seaQuestionTwoIncorrect3">UW Stadium</string>
+
+    <string name="seaQuestionThree"> Seattle - Question 3: Which one of the following is a building at UW? </string>
+    <string name="seaQuestionThreeCorrect">MGH</string>
+    <string name="seaQuestionThreeIncorrect1">PPM</string>
+    <string name="seaQuestionThreeIncorrect2">NGW</string>
+    <string name="seaQuestionThreeIncorrect3">000</string>
+
+    <string name="physQuestionOne">Physics - Question 1: PHYS course code for Introduction to Physics though Inquiry at UW </string>
+    <string name="physQuestionOneCorrect">101</string>
+    <string name="physQuestionOneIncorrect1">112</string>
+    <string name="physQuestionOneIncorrect2">102</string>
+    <string name="physQuestionOneIncorrect3">211</string>
+
+    <string name="physQuestionTwo">Physics - Question 2: PHYS course code for Mechanics (four credits) at UW </string>
+    <string name="physQuestionTwoCorrect">114</string>
+    <string name="physQuestionTwoIncorrect1">333</string>
+    <string name="physQuestionTwoIncorrect2">102</string>
+    <string name="physQuestionTwoIncorrect3">103</string>
+
+    <string name="physQuestionThree"> Physics - Question 3: PHYS course code for Electromagnetism at UW </string>
+    <string name="physQuestionThreeCorrect">122</string>
+    <string name="physQuestionThreeIncorrect1">102</string>
+    <string name="physQuestionThreeIncorrect2">111</string>
+    <string name="physQuestionThreeIncorrect3">106</string>
+
+
+    <string name="marvQuestionOne">Marvel Super Heroes - Question 1: Which one of the following is a super hero from Marvel? </string>
+    <string name="marvQuestionOneCorrect">Captain America</string>
+    <string name="marvQuestionOneIncorrect1">Jay Inslee</string>
+    <string name="marvQuestionOneIncorrect2">Baymax</string>
+    <string name="marvQuestionOneIncorrect3">Elsa</string>
+
+    <string name="marvQuestionTwo">Marvel Super Heroes - Question 2: Which one of the following is a super hero from Marvel? </string>
+    <string name="marvQuestionTwoCorrect">Hulk</string>
+    <string name="marvQuestionTwoIncorrect1">Dash</string>
+    <string name="marvQuestionTwoIncorrect2">Frozone</string>
+    <string name="marvQuestionTwoIncorrect3">Batman</string>
+
+    <string name="marvQuestionThree"> Marvel Super Heroes - Question 3: Which one of the following is a super hero from Marvel?  </string>
+    <string name="marvQuestionThreeCorrect">Black Panthers</string>
+    <string name="marvQuestionThreeIncorrect1">Superman</string>
+    <string name="marvQuestionThreeIncorrect2">Wonder Woman</string>
+    <string name="marvQuestionThreeIncorrect3">Jack-J</string>
+
+
 </resources>

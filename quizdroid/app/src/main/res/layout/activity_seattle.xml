@@ -4,31 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SeattleActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center">
-        <Button
-            android:id="@+id/btnMath"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Math" />
-        <Button
-            android:id="@+id/btnSea"
+            android:text="Topic Overview: Seattle"
+            android:textSize="20dp"
+            />
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Seattle" />
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Testing your knowledge on the 206! 3 questions in total"
+            android:textSize="15dp"
+            />
         <Button
-            android:id="@+id/btnPhys"
+            android:id="@+id/beginSea"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Physics" />
-        <Button
-            android:id="@+id/btnMarv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Marvel Super Heroes" />
+            android:layout_marginTop="10dp"
+            android:text="Begin"
+            android:textSize="10dp"
+            />
+
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
