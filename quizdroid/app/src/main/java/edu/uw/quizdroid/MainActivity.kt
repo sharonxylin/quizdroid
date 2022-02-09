@@ -1,6 +1,7 @@
 package edu.uw.quizdroid
 
 import android.content.Intent
+import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -15,9 +16,31 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         val app = this.application as QuizApp
+        val prefs: SharedPreferences = getSharedPreferences("settings", MODE_PRIVATE)
+
+        if(prefs.contains("application.firstRun")){
+
+        }else{
+            val intent = Intent(this, Preferences::class.java)
+            startActivity(intent)
+        }
+
+
+        // val pref: SharedPreferences = getSharedPreferences("url", MODE_PRIVATE)
+        // val pref = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit()
+        // val pref: SharedPreferences = getSharedPreferences("settings", MODE_PRIVATE)
+        // val editor = pref.edit()
+        /*
+        editor.putString("name", "Elena")
+        editor.putInt("idName", 12)
+        editor.commit()*/
+
+
+
         app.restart()
+
+
 
         val btn0 = findViewById<Button>(R.id.btn0)
         val btn1 = findViewById<Button>(R.id.btn1)
@@ -50,24 +73,6 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("INDEX", 3)
             startActivity(intent)
         }
-
-
-        /*btnMath.setOnClickListener {
-            val intent = Intent(this,MathActivity::class.java)
-            startActivity(intent)
-        }
-        btnSea.setOnClickListener {
-            val intent = Intent(this,SeattleActivity::class.java)
-            startActivity(intent)
-        }
-        btnPhys.setOnClickListener {
-            val intent = Intent(this,PhysicsActivity::class.java)
-            startActivity(intent)
-        }
-        btnMarv.setOnClickListener {
-            val intent = Intent(this,MarvelActivity::class.java)
-            startActivity(intent)
-        }*/
     }
 
 }
