@@ -3,8 +3,6 @@ package edu.uw.quizdroid
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-//import android.preference.PreferenceActivity;
 import android.widget.Button
 import android.widget.EditText
 import java.time.Instant
@@ -13,7 +11,6 @@ class Preferences : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_preferences)
-        val app = this.application as QuizApp
         val editor = getSharedPreferences("settings", MODE_PRIVATE).edit()
         val prefURL = findViewById<EditText>(R.id.prefURL)
         val prefMinutes = findViewById<EditText>(R.id.prefMinutes)
