@@ -1,14 +1,22 @@
 package edu.uw.quizdroid
 import android.util.Log
 import android.app.Application
+import android.content.Context
+import android.content.SharedPreferences
+import org.json.JSONArray
+import java.io.File
+import java.io.FileInputStream
+import java.io.InputStream
 
-interface TopicRepository {}
+interface TopicRepository{
+
+}
 
 data class Quiz(val question: String, val answers: List<String>, val correct: Int) {}
 
 data class Topic(val title:String, val shortDescription: String, val longDescription: String, var quizzes: List<Quiz>){}
 
-class TopicRepo(): TopicRepository{
+class oldTopicRepo(): TopicRepository{
     var topics: List<Topic> =  mutableListOf(
         // val a1: String, val a2: String, val a3: String, val a4: String,
         Topic("Math", "algebra + geometry", "Testing your knowledge on algebra and geometry! 3 questions in total", mutableListOf(
@@ -31,8 +39,71 @@ class TopicRepo(): TopicRepository{
     )
 }
 
+/*fun readJSON(jsonFile: InputStream): String{
+    var formatted: String = ""
+    try {
+        formatted = jsonFile.bufferedReader().use{it.readText()}
+    } catch (ex:Exception){
+        ex.printStackTrace()
+    }
+    return formatted
+}*/
+
+
+class JSONTopicRepo(): TopicRepository{
+    val topics: List<Topic> = mutableListOf<Topic>()
+    /*val file: File = File("edu/uw/quizdroid/data/questions.json") // from somewhere
+    val bytes = inputStream.readBytes()
+    file.writeBytes(bytes)
+*/
+    /*
+    FileInputStream in = openFileInput("filename.txt");
+    InputStreamReader inputStreamReader = new InputStreamReader(in);
+    BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+    StringBuilder sb = new StringBuilder();
+    String line;
+    while ((line = bufferedReader.readLine()) != null) {
+        sb.append(line);
+    }
+    inputStreamReader.close();*/
+    /*
+    Context.openFileInput("edu/uw/quizdroid/data/questions.json").use { stream ->
+        val text = stream.bufferedReader().use {
+            it.readText()
+        }
+        Log.i("TAG", "LOADED: $text")
+    }*/
+
+    //val questions = JSONArray("${readJSON(assets.open("quizdroid/app/src/main/java/edu/uw/quizdroid/data/questions.json"))}")
+    // var formatted: String = ""
+    //contentResolver.openInputStream("edu/uw/quizdroid/data/questions.json")!!.bufferedReader().use {it.readText() }
+   /* try {
+        formatted = jsonFile.bufferedReader().use{it.readText()}
+    } catch (ex:Exception){
+        ex.printStackTrace()
+    }
+    return formatted
+*/
+
+    // questions - questions.json
+    /* for (i in 0..(questions.length()-1)) {
+        val title = questions.getJSONObject(i).get("Title") as String
+        val shortDescr = questions.getJSONObject(i).get("desc") as String
+        val longDescr = questions.getJSONObject(i).get("desc") as String
+        val topicQuestions =  questions.getJSONObject(i).getJSONArray("questions")
+        val formattedTopicQuestions = mutableListOf<Quiz>()
+        for (i in 0..(topicQuestions.length()-1)){
+            val question = topicQuestions.getJSONObject(i).get("title") as String
+            val correct = topicQuestions.getJSONObject(i).get("answer").toInt() - 1 as Integer
+            val answers = topicQuestions.getJSONObject(i).get("answers")
+            formattedTopicQuestions.add(Quiz(question, answers, correct))
+        }
+        topics.add(Topic(title, shortDescr, longDescr, formattedTopicQuestions))
+    }*/
+}
+
 class QuizApp: Application() {
-    private var topicRepo = TopicRepo()
+    private var topicRepo = oldTopicRepo()
     private var curr = 0
     private var correct = 0
 
@@ -80,5 +151,6 @@ class QuizApp: Application() {
         val correctIndex = topicRepo.topics[index].quizzes[curr].correct
         return topicRepo.topics[index].quizzes[curr].answers[correctIndex]
     }
+
 
 }
