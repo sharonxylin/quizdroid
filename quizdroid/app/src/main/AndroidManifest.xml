@@ -3,12 +3,22 @@
     package="edu.uw.quizdroid">
 
     <application
+        android:name=".QuizApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Quizdroid">
+        <activity
+            android:name=".Answer"
+            android:exported="false" />
+        <activity
+            android:name=".Question"
+            android:exported="false" />
+        <activity
+            android:name=".TopicOverviewActivity"
+            android:exported="false" />
         <activity
             android:name=".MarvelAnswerThree"
             android:exported="false" />

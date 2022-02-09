@@ -11,24 +11,24 @@
         android:orientation="vertical"
         android:gravity="center">
         <Button
-            android:id="@+id/btnMath"
+            android:id="@+id/btn0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Math" />
+            />
         <Button
-            android:id="@+id/btnSea"
+            android:id="@+id/btn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Seattle" />
+            />
         <Button
-            android:id="@+id/btnPhys"
+            android:id="@+id/btn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Physics" />
+            />
         <Button
-            android:id="@+id/btnMarv"
+            android:id="@+id/btn3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Marvel Super Heroes" />
+            />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,12 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_answer.xml" value="0.15364583333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_marvel.xml" value="0.13489583333333333" />
-        <entry key="app/src/main/res/layout/activity_marvel_answer_one.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_marvel_answer_one.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_marvel_answer_three.xml" value="0.14895833333333333" />
         <entry key="app/src/main/res/layout/activity_marvel_answer_two.xml" value="0.14895833333333333" />
-        <entry key="app/src/main/res/layout/activity_marvel_question_one.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/activity_marvel_question_one.xml" value="0.45" />
         <entry key="app/src/main/res/layout/activity_marvel_question_three.xml" value="0.13489583333333333" />
         <entry key="app/src/main/res/layout/activity_marvel_question_two.xml" value="0.13489583333333333" />
         <entry key="app/src/main/res/layout/activity_math.xml" value="0.41161290322580646" />
@@ -25,6 +26,7 @@
         <entry key="app/src/main/res/layout/activity_physics_answer_two.xml" value="0.13489583333333333" />
         <entry key="app/src/main/res/layout/activity_physics_question_one.xml" value="0.14895833333333333" />
         <entry key="app/src/main/res/layout/activity_physics_question_two.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/layout/activity_question.xml" value="0.3458333333333333" />
         <entry key="app/src/main/res/layout/activity_seattle.xml" value="0.14895833333333333" />
         <entry key="app/src/main/res/layout/activity_seattle_answer_one.xml" value="0.13489583333333333" />
         <entry key="app/src/main/res/layout/activity_seattle_answer_three.xml" value="0.13489583333333333" />
@@ -32,6 +34,7 @@
         <entry key="app/src/main/res/layout/activity_seattle_question_one.xml" value="0.13489583333333333" />
         <entry key="app/src/main/res/layout/activity_seattle_question_three.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_seattle_question_two.xml" value="0.14895833333333333" />
+        <entry key="app/src/main/res/layout/activity_topic_overview.xml" value="0.16770833333333332" />
       </map>
     </option>
   </component>
