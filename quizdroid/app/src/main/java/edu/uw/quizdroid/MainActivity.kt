@@ -19,18 +19,13 @@ class MainActivity : AppCompatActivity() {
         val app = this.application as QuizApp
         val prefs: SharedPreferences = getSharedPreferences("settings", MODE_PRIVATE)
         // prefs.edit().clear().commit()
-        // prefURL
-        // prefMinutes
-        // application.firstRun
         if(prefs.contains("application.firstRun")){
-
+            //update configuration settings with prefURL and prefMinutes
         }else{
             val intent = Intent(this, Preferences::class.java)
             startActivity(intent)
         }
-
         app.restart()
-
         val btn0 = findViewById<Button>(R.id.btn0)
         val btn1 = findViewById<Button>(R.id.btn1)
         val btn2 = findViewById<Button>(R.id.btn2)
