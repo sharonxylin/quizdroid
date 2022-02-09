@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val app = this.application as QuizApp
         val prefs: SharedPreferences = getSharedPreferences("settings", MODE_PRIVATE)
-
+        // prefs.edit().clear().commit()
         if(prefs.contains("application.firstRun")){
 
         }else{
