@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
         val app = this.application as QuizApp
         val prefs: SharedPreferences = getSharedPreferences("settings", MODE_PRIVATE)
         // prefs.edit().clear().commit()
+        // prefURL
+        // prefMinutes
+        // application.firstRun
         if(prefs.contains("application.firstRun")){
 
         }else{
@@ -26,21 +29,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-
-        // val pref: SharedPreferences = getSharedPreferences("url", MODE_PRIVATE)
-        // val pref = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit()
-        // val pref: SharedPreferences = getSharedPreferences("settings", MODE_PRIVATE)
-        // val editor = pref.edit()
-        /*
-        editor.putString("name", "Elena")
-        editor.putInt("idName", 12)
-        editor.commit()*/
-
-
-
         app.restart()
-
-
 
         val btn0 = findViewById<Button>(R.id.btn0)
         val btn1 = findViewById<Button>(R.id.btn1)
