@@ -28,7 +28,7 @@ class Answer : AppCompatActivity() {
         answerUser.setText("Your Answer: " + intent.getStringExtra("USER"))
         answerCorrect.setText("Correct Answer: "+ intent.getStringExtra("CORRECT"))
         answerSummary.setText("You have " + correct + " out of " + curr + " correct")
-        if(curr != 3){
+        if(curr != app.getQuestions(index)){
             btnNext.setText("Next")
             btnNext.setOnClickListener{
                 val nextIntent = Intent(this, Question:: class.java)
